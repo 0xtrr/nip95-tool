@@ -18,7 +18,7 @@ struct Event {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let matches = Command::new("My JSON Processor")
+    let matches = Command::new("NIP-95 tool")
         .version("1.0")
         .author("0xtr <oxtrr@protonmail.com>")
         .about("Decodes base64 encoded files from nostr events")
