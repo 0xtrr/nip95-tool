@@ -22,3 +22,4 @@ nostr-tool -r wss://nostr.oxtr.dev list-events -k 1064 -o events.json
 ## Features
 - [x] Basic kind 1064 events
 - [ ] Encrypted files
+- [ ] Fetch events directly from relay instead of json file with events
